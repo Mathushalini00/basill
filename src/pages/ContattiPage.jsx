@@ -114,17 +114,13 @@ export default function ContactPage() {
               <InfoItem
                 icon={<FaMapMarkerAlt className="text-sm" />}
                 title="The Italian Office"
-                lines={[
-                  "Via dell'Aranceto, 42",
-                  "53045 Montepulciano (SI)",
-                  "Tuscany, Italy",
-                ]}
+                lines={["via Pra' 73n"]}
               />
 
               <InfoItem
                 icon={<FaPhoneAlt className="text-sm" />}
                 title="Direct Line"
-                lines={["+39 0578 757000"]}
+                lines={["+39 3488869039"]}
               />
 
               <InfoItem

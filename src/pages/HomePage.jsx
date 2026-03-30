@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
+import Main from "../assets/main.jpg";
 
 const icons = {
   greenhouse: (
@@ -97,9 +98,9 @@ export default function HomePage() {
         <div
           className="relative w-full min-h-[70vh] flex items-center"
           style={{
-            backgroundImage: "url('/hero.jpg')",
+            backgroundImage: `url(${Main})`,
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "center 15%",
           }}
         >
           {/* Overlay (important for readability) */}

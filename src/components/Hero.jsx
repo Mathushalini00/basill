@@ -1,8 +1,7 @@
-import { useLanguage } from '../context/LanguageContext';
-
+import { useLanguage } from "../context/LanguageContext";
 export default function Hero() {
   const { t } = useLanguage();
-  const hero = t('hero');
+  const hero = t("hero");
 
   return (
     <section className="pt-20" aria-labelledby="hero-headline">

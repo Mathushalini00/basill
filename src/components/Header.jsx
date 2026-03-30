@@ -40,7 +40,7 @@ export default function Header() {
           {/* Phone */}
           <div className="flex items-center gap-2">
             <FiPhone className="text-white" />
-            <span>+39 000 000 0000</span>
+            <span>+39 3488869039</span>
           </div>
 
           {/* Email */}
@@ -52,7 +52,7 @@ export default function Header() {
           {/* Location */}
           <div className="flex items-center gap-2">
             <FiMapPin className="text-white" />
-            <span>Via delle Serre, Liguria</span>
+            <span>via Pra' 73n</span>
           </div>
         </div>
       </div>

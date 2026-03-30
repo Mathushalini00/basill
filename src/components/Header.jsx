@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
-import Logo from "../assests/Logo.jpeg";
+import Logo from "../assets/logo.jpeg";
 
 const navLinks = [
   { key: "home", path: "/" },

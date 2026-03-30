@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 import { useLanguage } from "../context/LanguageContext";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import Logo from "../assests/Logo.jpeg";
+import Logo from "../assets/logo.jpeg";
 
 export default function Footer() {
   const { t } = useLanguage();

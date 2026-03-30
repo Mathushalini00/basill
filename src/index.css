@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #000;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+::selection {
+  background: #f26419;
+  color: #fff;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #f26419;
+  outline-offset: 2px;
+}
